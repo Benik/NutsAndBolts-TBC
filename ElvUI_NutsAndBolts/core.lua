@@ -3,7 +3,7 @@ local EP = LibStub("LibElvUIPlugin-1.0")
 local ENB = E:NewModule("NutsAndBolts", "AceHook-3.0", "AceEvent-3.0", "AceTimer-3.0");
 local addon, ns = ...
  
-ENB.Version = GetAddOnMetadata("ElvUI_NutsAndBolts-TBC", "Version")
+ENB.Version = GetAddOnMetadata("ElvUI_NutsAndBolts", "Version")
 ENB.Title = format('|cff00c0fa%s|r|cffffff00%s|r|cff00c0fa%s|r', "Nuts", "&", "Bolts")
 ENB.Config = {}
 
@@ -25,8 +25,8 @@ end
 
 -- Check other addons
 ENB.LL = ENB:IsAddOnEnabled('ElvUI_LocLite')
-ENB.LP = ENB:IsAddOnEnabled('ElvUI_LocPlus-TBC')
-ENB.BU = ENB:IsAddOnEnabled('ElvUI_BenikUI_TBC')
+ENB.LP = ENB:IsAddOnEnabled('ElvUI_LocPlus')
+ENB.BU = ENB:IsAddOnEnabled('ElvUI_BenikUI')
 ENB.DT = ENB:IsAddOnEnabled('ElvUI_DTColors')
 
 -- Options
@@ -46,7 +46,7 @@ function ENB:ConfigTable()
 				order = 2,
 				type = "description",
 				name = "",
-				image = function() return 'Interface\\AddOns\\ElvUI_NutsAndBolts-TBC\\media\\textures\\nutsandbolts_logo.tga', 256, 64 end,
+				image = function() return 'Interface\\AddOns\\ElvUI_NutsAndBolts\\media\\textures\\nutsandbolts_logo.tga', 256, 64 end,
 			},
 			header2 = {
 				order = 3,
