@@ -1,0 +1,13 @@
+## Interface: 20504
+## Author: Benik
+## Version: 0.01
+## Title: |cff1784d1ElvUI|r |cff00c0faNuts|r|cffffff00&|r|cff00c0faBolts|r-TBC
+## Notes: Various ElvUI Enhancements
+## RequiredDeps: ElvUI
+## DefaultState: Enabled
+## OptionalDeps: SharedMedia, ElvUI_BenikUI
+
+locales\load_locales.xml
+core.lua
+modules\load_modules.xml
+
