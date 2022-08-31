@@ -1,7 +1,7 @@
 ## Interface: 30400
 ## Author: Benik
 ## Version: 0.01
-## Title: |cff1784d1ElvUI|r |cff00c0faNuts|r|cffffff00&|r|cff00c0faBolts|r-Wrath
+## Title: |cff1784d1ElvUI|r |cff00c0faNuts|r|cffffff00&|r|cff00c0faBolts|r |cfd9b9b9bWrath|r
 ## Notes: Various ElvUI Enhancements
 ## RequiredDeps: ElvUI
 ## DefaultState: Enabled
